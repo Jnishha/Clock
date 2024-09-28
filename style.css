@@ -1,7 +1,84 @@
-.seconds{
-    animation: cycle 1s infinite linear;
+/* .minutes{
+    animation: cycle 6s infinite linear;
+}
+.hours{
+    animation: cycle 60s infinite linear;
+}
+@keyframes cycle{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+} */
+
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    margin: 0;
 }
 
+.clock {
+    width: 300px;
+    height: 300px;
+    border: 20px solid black;
+    border-radius: 50%;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); /* Fix for the hands positioning */
+}
+
+.hand {
+    width: 50%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hours {
+    height: 6px;
+}
+
+.minutes {
+    height: 4px;
+}
+
+/* .second-hand {
+    height: 2px;
+    background: red;
+} */
+
+.num {
+    position: absolute;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+
+#1  { top: 20%; left: 85%; }
+#2  { top: 35%; left: 92%; }
+#3  { top: 50%; left: 97%; }
+#4  { top: 65%; left: 92%; }
+#5  { top: 80%; left: 85%; }
+#6  { top: 85%; left: 50%; }
+#7  { top: 80%; left: 15%; }
+#8  { top: 65%; left: 8%; }
+#9  { top: 50%; left: 3%; }
+#10 { top: 35%; left: 8%; }
+#11 { top: 20%; left: 15%; }
+#12 { top: 15%; left: 50%; }
 
 
 
