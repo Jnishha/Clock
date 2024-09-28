@@ -1,4 +1,27 @@
-body {
+.seconds{
+    animation: cycle 1s infinite linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,4 +55,4 @@ body {
     left: 0;
     color: aquamarine;
     font-size: 12px;
-}
+} */
