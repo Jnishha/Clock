@@ -1,4 +1,6 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.clock
+.clock{
+    position: absolute;
+}
