@@ -1,3 +1,6 @@
+body{
+    align-items: center;
+}
 .minutes{
     animation: cycle 6s infinite linear;
 }
@@ -9,10 +12,14 @@
     to{ transform: rotate(360deg);}
 }
 
-#clock{
-    width:80px;
-    height: auto;
+.clock{
+    width:300px;
+    height: 300px;
     border-radius: 50%;
+    display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center;
     background-color: aquamarine;
 }
 
