@@ -9,3 +9,12 @@ body{
     margin: 0 auto;
     border-radius: 50%;
 }
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
