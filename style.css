@@ -12,9 +12,19 @@ body{
 .point{
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: rgb(35, 32, 32);
     border-radius: 50%;
     position: absolute;
     top: 240px;
     left: 240px;
+}
+.num{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    /* position: absolute; */
+}
+#1{
+    top: 40px;
+    right: 130px;
 }
