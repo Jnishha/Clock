@@ -22,9 +22,9 @@ body{
     font-size: 30px;
     font-weight: bold;
     color: darkblue;
-    /* position: absolute; */
+    position: absolute;
 }
-#1{
+#num1{
     top: 40px;
     right: 130px;
 }
