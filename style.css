@@ -2,5 +2,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .clock{
-    position: absolute;
+    /* position: absolute; */
+    width: 500px;
+    height: 500px;
+    border: 20px solid black;
+    margin: 0 auto;
+    border-radius: 50%;
 }
