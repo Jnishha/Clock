@@ -1,5 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding-top: 15%;
 }
 .clock{
     position: relative;
