@@ -32,3 +32,43 @@ body{
     top: 125px;
     right: 45px;
 }
+#num3{
+    top: 235px;
+    right: 10px;
+}
+#num4{
+    top: 345px;
+    right: 45px;
+}
+#num5{
+    top: 430px;
+    right: 130px;
+}
+#num6{
+    bottom: 10px;
+    left: 240px;
+}
+#num7{
+    top: 430px;
+    left: 130px;
+}
+#num8{
+    top: 345px;
+    left: 45px;
+}
+#num9{
+    top: 235px;
+    left: 10px;
+}
+#num10{
+    top: 125px;
+    left: 45px;
+}
+#num11{
+    top: 40px;
+    left: 130px;
+}
+#num12{
+    top: 10px;
+    left: 240px;
+}
