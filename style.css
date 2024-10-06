@@ -75,7 +75,11 @@ body{
     left: 240px;
 }
 .seconds{
-    width: 4000px;
-    height: 4000px;
+    width: 400px;
+    height: 400px;
     background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50%;
 }
