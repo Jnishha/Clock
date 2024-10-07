@@ -74,12 +74,21 @@ body{
     top: 10px;
     left: 240px;
 }
-.seconds{
+/* .seconds{
     width: 400px;
     height: 400px;
-    background-color: blue;
     position: absolute;
     top: 50px;
     left: 50px;
     border-radius: 50%;
+} */
+/* .hand{
+    position: relative;
 }
+.arrow{
+    width: 4px;
+    height: 200px;
+    background-color: rgb(250, 0, 0);
+    position: absolute;
+    left: 199px;
+} */
