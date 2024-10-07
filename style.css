@@ -100,7 +100,7 @@ body{
     position: absolute;
     
 }
-/* .minutes{
+.minutes{
     width: 300px;
     height: 300px;
     position: absolute;
@@ -117,4 +117,4 @@ body{
     background-color: rgb(44, 46, 180);
     position: absolute;
     left: 199px;
-} */
+}
