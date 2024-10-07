@@ -88,13 +88,21 @@ body{
 .sechand .hand{
     width: 4px;
     height: 200px;
-    background-color: rgb(250, 0, 0);
+    background-color: red;
     position: absolute;
     left: 199px;
 }
-.minutes{
-    width: 400px;
-    height: 400px;
+.sechand .arrow{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    transform: rotate(180deg);
+    position: absolute;
+    
+}
+/* .minutes{
+    width: 300px;
+    height: 300px;
     position: absolute;
     top: 50px;
     left: 50px;
@@ -105,8 +113,8 @@ body{
 }
 .minhand .hand{
     width: 4px;
-    height: 150px;
+    height: 200px;
     background-color: rgb(44, 46, 180);
     position: absolute;
     left: 199px;
-}
+} */
