@@ -92,7 +92,7 @@ body{
     position: absolute;
     left: 174px;
 }
-.minhand .arrow{
+/* .minhand .arrow{
     font-size: 30px;
     font-weight: bold;
     color: rgb(44,46,180);
@@ -101,7 +101,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     left: 166px;
     top: -7px;
-}
+} */
 .seconds{
     width: 300px;
     height: 300px;
