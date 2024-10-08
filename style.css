@@ -120,7 +120,7 @@ body{
     position: absolute;
     left: 199px;
 }
-.sechand .arrow{
+/* .sechand .arrow{
     font-size: 30px;
     font-weight: bold;
     color: red;
@@ -129,7 +129,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     left: 190px;
     top: -7px;
-}
+} */
  .hours{
     width: 300px;
     height: 300px;
