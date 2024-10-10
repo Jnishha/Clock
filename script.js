@@ -8,6 +8,6 @@ setInterval(
         d = new Date();
         second = d.getSeconds();
         minute = d.getMinutes();
-        hour = d.getHours();
+        hour = d.getHours(); 
     },1000
 );
