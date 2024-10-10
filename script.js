@@ -8,6 +8,7 @@ setInterval(
         d = new Date();
         second = d.getSeconds();
         minute = d.getMinutes();
-        hour = d.getHours(); 
+        hour = d.getHours();
+        document.getElementById("sec").style
     },1000
 );
