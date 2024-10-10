@@ -9,5 +9,5 @@ setInterval(
         second = d.getSeconds();
         minute = d.getMinutes();
         hour = d.getHours();
-    }
+    },1000
 );
