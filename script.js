@@ -6,9 +6,9 @@ var d = new Date();
 setInterval(
     function(){
         d = new Date();
-        second = d.getSeconds();
+        second = d.getSeconds()*6;
         minute = d.getMinutes();
         hour = d.getHours();
-        document.getElementById("sec").style.transform = "rotate("+ second + 
+        document.getElementById("sec").style.transform = "rotate("+ second + "deg)";
     },1000
 );
