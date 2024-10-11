@@ -1,4 +1,4 @@
-var second = 0;
+var second = 0; 
 var minute = 0;
 var hour = 0;
 var d = new Date();
@@ -9,6 +9,6 @@ setInterval(
         second = d.getSeconds();
         minute = d.getMinutes();
         hour = d.getHours();
-        document.getElementById("sec").style
+        document.getElementById("sec").style.transform = "rotate("+ second + 
     },1000
 );
