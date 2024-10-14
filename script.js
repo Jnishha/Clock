@@ -9,7 +9,7 @@ setInterval(
         second = d.getSeconds();
         minute = d.getMinutes()*6;
         hour = d.getHours()*30 + Math.round(minute / 12);
-        document.
+        document.getElementById("sec")
         document.getElementById("min").style.transform = "rotate("+ minute + "deg)";
         document.getElementById("hr").style.transform = "rotate("+ hour + "deg)";
     },1000
