@@ -90,7 +90,8 @@ body{
     height: 200px;
     background-color: red;
     position: absolute;
-    left: 199px;
+    left: 200px;
+    transform-origin: bottom;
 }
 /* .sechand .arrow{
     font-size: 30px;
@@ -119,6 +120,7 @@ body{
     background-color: rgb(44,46,180);
     position: absolute;
     left: 174px;
+    transform-origin: bottom;
 }
 /* .minhand .arrow{
     font-size: 30px;
@@ -147,6 +149,7 @@ body{
     background-color: rgb(18, 18, 20);
     position: absolute;
     left: 148px;
+    transform-origin: bottom;
 }
 /* .hourhand .arrow{
     font-size: 30px;
