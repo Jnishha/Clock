@@ -86,14 +86,14 @@ body{
 .sechand{
     position: relative;
 }
-.sechand .hand{
+/* .sechand .hand{
     width: 4px;
     height: 200px;
     background-color: red;
     position: absolute;
     left: 200px;
     transform-origin: bottom;
-}
+} */
 /* .sechand .arrow{
     font-size: 30px;
     font-weight: bold;
