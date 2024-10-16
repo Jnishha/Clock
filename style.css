@@ -13,7 +13,7 @@ body{
 }
 .point{
     width: 10px;
-    height: 20px;
+    height: 10px;
     background-color: rgb(35, 32, 32);
     border-radius: 50%;
     position: absolute;
