@@ -10,5 +10,5 @@ This is a project to create an analog clock using HTML, CSS and JS elements.
 
 ## Problems
 Second hand is not rotating properly and that's why second hand is removed at the last
-![Screenshot 2024-10-15 203522](https://github.com/user-attachments/assets/2968abf1-a3e9-4981-943e-2a10b2e251f6)
+https://github.com/user-attachments/assets/b636a25f-e6f1-4828-985b-b88c63bd698f
 
